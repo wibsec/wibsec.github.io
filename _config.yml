@@ -1,0 +1,66 @@
+# Mandatory settings
+
+blog_theme: dark
+name: WIBSEC Research
+paginate: 25
+url: https://blog.watchitburn.net
+
+
+# Optional settings
+
+about_enabled: false
+disqus_identifier: wibsec
+ga_analytics: G-PER745N71P
+local_fonts: false # Change to true if you wish to use local fonts
+rss_enabled: true # Change to false if not
+scrollappear_enabled: true # Change to false to disable
+tag_nav_enabled: false # Change to true if you wish to show an additional 'tag-list' navigation below the header
+theme_toggle: false # Change to true if you wish to show an icon in the navigation for dynamic theme toggling
+social:
+  github: wibsec # Add your GitHub handle
+  twitter: wibsec
+  email: blog@watchitburn.net
+#  keybase: # Add your Keybase handle
+
+
+# Important settings (change at own risk)
+
+assets:
+  plugins:
+    css: { autoprefixer: {}}
+    img: { optim: {}}
+  source_maps: false
+  sources:
+    - _assets/icons
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/yarn
+collections:
+  my_tags:
+    output: true
+    permalink: /tag/:slug/
+defaults:
+  -
+    scope:
+      path: ""
+      type: my_tags
+    values:
+      layout: articles_by_tag
+exclude:
+  - .travis.yml
+  - bin/*
+  - circle.yml
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - README.md
+  - vendor/
+  - yarn.lock
+plugins:
+  - jekyll-assets
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
+paginate_path: /posts/page/:num/
+permalink: posts/:slug

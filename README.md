@@ -1,7 +1,7 @@
 # WIBSEC Blog Dev
 
 This repo is the content generation root for the [WIBSEC blog](https://blog.watchitburn.net).
-If you are a contributor, you will need the correct environment to support this:
+If you are a contributor, you will need the correct environment to test your posts locally before submitting a PR:
 
 1. prepare an isolated space for the environment (VM works great)
 2. Install Jekyll

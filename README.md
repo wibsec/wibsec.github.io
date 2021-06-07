@@ -29,5 +29,5 @@ Once you have a working environment capable of serving the blog locally for your
 
 ### Notes
 * if you wish to share an entire codebase, it is strongly advised that you use another repo.  I am happy to add a repo to this account if you do not wish to disclose your personal github account to the public.
-* all content published here-in shall be subject to GPLv3 license.  In lamens terms, this essentially means anything you contribute for publication can be used by anyone to do anything except to include in closed source products.
+* all content published here-in shall be subject to the MIT License.
 * if you want to include large files (lets say, over 50mb), please be responsible for ensuring they are hosted elsewhere, that the site they are hosted on is reliable, and that its administration is ameenable to "hot-linking" by our site.
